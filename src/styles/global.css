@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.file-drop-zone {
+    border: 2px dashed #007bff;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+.file-drop-zone:hover {
+    background-color: #e9f5ff;
+}
+
+.star-rating {
+    display: flex;
+    cursor: pointer;
+}
+
+.star {
+    font-size: 24px;
+    color: #ccc;
+    transition: color 0.2s;
+}
+
+.star:hover,
+.star.selected {
+    color: #ffcc00;
+}
